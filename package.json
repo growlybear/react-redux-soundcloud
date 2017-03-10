@@ -17,6 +17,13 @@
     "url": "https://github.com/growlybear/react-redux-soundcloud/issues"
   },
   "homepage": "https://github.com/growlybear/react-redux-soundcloud#readme",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+    ]
+  },
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.4.0",
