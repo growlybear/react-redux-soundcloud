@@ -1,3 +1,10 @@
-console.log('My minimal React Webpack Babel setup')
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-module.hot.accept()
+const title = 'My minimal React Webpack Babel setup'
+const root = 'app'
+
+ReactDOM.render(
+  <div>{ title }</div>,
+  document.getElementById(root)
+)
