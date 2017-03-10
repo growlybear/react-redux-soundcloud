@@ -1,0 +1,19 @@
+{
+  "name": "react-redux-soundcloud",
+  "version": "1.0.0",
+  "description": "Soundcloud client app with react/redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/growlybear/react-redux-soundcloud.git"
+  },
+  "author": "Michael Allan <michaelallan@optushome.com.au>",
+  "license": "BSD 3-Clause License",
+  "bugs": {
+    "url": "https://github.com/growlybear/react-redux-soundcloud/issues"
+  },
+  "homepage": "https://github.com/growlybear/react-redux-soundcloud#readme"
+}
