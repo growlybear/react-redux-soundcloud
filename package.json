@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/growlybear/react-redux-soundcloud/issues"
   },
-  "homepage": "https://github.com/growlybear/react-redux-soundcloud#readme"
+  "homepage": "https://github.com/growlybear/react-redux-soundcloud#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
 }
