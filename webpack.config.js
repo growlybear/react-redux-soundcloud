@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:8080',
@@ -6,7 +8,11 @@ module.exports = {
   ],
   module: {
     loaders: [
-      { test: /\.jsx?$/, loader: 'react-hot-loader!babel-loader', exclude: /node-modules/ }
+      {
+        test: /\.jsx?$/,
+        loaders: ['react-hot-loader', 'babel-loader'],
+        include: path.join(__dirname, 'src')
+      }
     ]
   },
   resolve: {
