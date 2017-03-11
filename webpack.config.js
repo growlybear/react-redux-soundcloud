@@ -2,15 +2,15 @@ const path = require('path')
 
 module.exports = {
   entry: [
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
-    './src/index.js'
+    'webpack-dev-server/client?http://localhost:8080',  // enable websocket connection (needs url and port)
+    'webpack/hot/only-dev-server',                      // to perform HMR in the browser
+    './src/index.js'                                    // app entry point
   ],
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['react-hot-loader', 'babel-loader'],
+        loaders: [ 'react-hot-loader', 'babel-loader' ],
         include: path.join(__dirname, 'src')
       }
     ]
@@ -25,6 +25,6 @@ module.exports = {
   },
   devServer: {
     contentBase: './dist',
-    hot: true
+    hot: true                                           // enable HMR in webpack-dev-server and in libs running in the browser
   }
 }
