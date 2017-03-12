@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
 import track from './track'
 
-export defalt combineReducers({
+export default combineReducers({
   track
 })
