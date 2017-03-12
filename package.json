@@ -13,7 +13,7 @@
     "url": "git+ssh://git@github.com/growlybear/react-redux-soundcloud.git"
   },
   "author": "Michael Allan <michaelallan@optushome.com.au>",
-  "license": "BSD 3-Clause License",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/growlybear/react-redux-soundcloud/issues"
   },
